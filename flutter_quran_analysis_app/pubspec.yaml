@@ -1,0 +1,20 @@
+name: quran_analysis_app
+description: تطبيق لتحليل القرآن باستخدام Sonnet Cloud
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.3.0
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true  # تأكد أن تكون القيمة هنا true بدون علامات اقتبا
